@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     /*  measurement converter
@@ -28,18 +29,28 @@ int main() {
             switch (opt) {
                 case 0:
                     printf("0=Lenght");
+                    printf("\n");
+                    system("pause");
                     break;
                 case 1:
                     printf("1=Mass");
+                    printf("\n");
+                    system("pause");
                     break;
                 case 2:
                     printf("2=Pressure");
+                    printf("\n");
+                    system("pause");
                     break;
                 case 3:
                     printf("3=Temperature");
+                    printf("\n");
+                    system("pause");
                     break;
                 case 4:
                     printf("4=Velocity");
+                    printf("\n");
+                    system("pause");
                     break;
 
 
@@ -49,5 +60,3 @@ int main() {
 
     return 0;
 }
-
-
