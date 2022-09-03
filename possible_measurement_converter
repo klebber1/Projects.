@@ -3,10 +3,10 @@
 int main() {
 
 
-  \*  conversion calc
+  \*  measurement converter
          project 
   *\
-    printf("Calc Project");
+    printf("measurement converter project");
 
 
     return 0;
