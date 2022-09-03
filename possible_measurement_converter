@@ -1,13 +1,19 @@
 #include <stdio.h>
 
 int main() {
+    /*  measurement converter
+           project de*/
 
-
-  /*  measurement converter
-         project   */
-    printf("measurement converter project\n");
-    printf("Choose the measurement type to convert\n");
-    
+    int opt;
+    printf("measurement converter project.\n\n");
+    printf("Choose the measurement type to convert:\n\n");
+    printf("1-Lenght\n");
+    printf("2-Mass\n");
+    printf("3-Pressure\n");
+    printf("4-Temperature\n");
+    printf("5-Velocity\n");
+    printf("enter the number corresponding to one of the options above: ");
+    scanf("%d",&opt);
 
 
     return 0;
