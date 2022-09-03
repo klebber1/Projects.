@@ -3,10 +3,11 @@
 int main() {
 
 
-  \*  measurement converter
-         project 
-  *\
-    printf("measurement converter project");
+  /*  measurement converter
+         project   */
+    printf("measurement converter project\n");
+    printf("Choose the measurement type to convert\n");
+    
 
 
     return 0;
