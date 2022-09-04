@@ -1,15 +1,68 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
+    /*  measurement converter
+           project*/
+
+    int opt=10;
+    do {
+
+        printf("measurement converter project.\n\n");
+        printf("Choose the measurement type to convert:\n\n");
+        printf("0-Lenght\n");
+        printf("1-Mass\n");
+        printf("2-Pressure\n");
+        printf("3-Temperature\n");
+        printf("4-Velocity\n");
+        printf("5-Frequency\n");
+        printf("enter the number corresponding to one of the options above: ");
+        scanf("%d", &opt);
+        printf("\n");
+
+        if (opt >= 6 ) {
+            printf("Wrong value. Choose a value from 1 to 5 to continue: ");
+
+        }
+    }while (opt >= 6);
 
 
-  /*  measurement converter
-         project   */
-    printf("measurement converter project\n");
-    printf("Choose the measurement type to convert\n");
-    
+            switch (opt) {
+                case 0:
+                    printf("0=Lenght");
+                    printf("\n");
+                    system("pause");
+                    break;
+                case 1:
+                    printf("1=Mass");
+                    printf("\n");
+                    system("pause");
+                    break;
+                case 2:
+                    printf("2=Pressure");
+                    printf("\n");
+                    system("pause");
+                    break;
+                case 3:
+                    printf("3=Temperature");
+                    printf("\n");
+                    system("pause");
+                    break;
+                case 4:
+                    printf("4=Velocity");
+                    printf("\n");
+                    system("pause");
+                    break;
+                case 5:
+                    printf("5=Frequency");
+                    printf("\n");
+                    system("pause");
+                    break;    
+
+
+
+        }
 
 
     return 0;
 }
-
