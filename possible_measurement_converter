@@ -15,15 +15,16 @@ int main() {
         printf("2-Pressure\n");
         printf("3-Temperature\n");
         printf("4-Velocity\n");
+        printf("5-Frequency\n");
         printf("enter the number corresponding to one of the options above: ");
         scanf("%d", &opt);
         printf("\n");
 
-        if (opt >= 5 ) {
+        if (opt >= 6 ) {
             printf("Wrong value. Choose a value from 1 to 5 to continue: ");
 
         }
-    }while (opt >= 5);
+    }while (opt >= 6);
 
 
             switch (opt) {
@@ -52,6 +53,11 @@ int main() {
                     printf("\n");
                     system("pause");
                     break;
+                case 5:
+                    printf("5=Frequency");
+                    printf("\n");
+                    system("pause");
+                    break;    
 
 
 
