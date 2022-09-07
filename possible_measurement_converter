@@ -5,63 +5,224 @@ int main() {
     /*  measurement converter
            project*/
 
-    int opt=10;
+    int opt=0;  /*main menu variable*/
+    int size1=0;  /*length menu */
+    int size2=0;  /*length menu */
+    float med=0; /*sub menu */
+    float res=0; /*length menu */
+
+
     do {
 
-        printf("measurement converter project.\n\n");
+        printf("Measurement Converter Project.\n\n");
         printf("Choose the measurement type to convert:\n\n");
-        printf("0-Lenght\n");
-        printf("1-Mass\n");
-        printf("2-Pressure\n");
-        printf("3-Temperature\n");
-        printf("4-Velocity\n");
-        printf("5-Frequency\n");
-        printf("enter the number corresponding to one of the options above: ");
+        printf("1-Lenght.\n");
+        printf("2-Mass.\n");
+        printf("3-Pressure.\n");
+        printf("4-Temperature.\n");
+        printf("5-Velocity.\n");
+        printf("6-Frequency.\n");
+        printf("Enter the number corresponding to one of the options above: ");
         scanf("%d", &opt);
         printf("\n");
 
-        if (opt >= 6 ) {
+        if (opt >= 7 || opt <= 0 ) {
             printf("Wrong value. Choose a value from 1 to 5 to continue: ");
 
         }
-    }while (opt >= 6);
+    }while (opt >= 7 || opt <= 0);
 
 
-            switch (opt) {
-                case 0:
-                    printf("0=Lenght");
-                    printf("\n");
+    switch (opt) {
+        case 1:
+            do {
+                printf("You chose LENGTH\n");
+                printf("1-Kilometer.\n");
+                printf("2-Meter.\n");
+                printf("3-Centimeter.\n");
+                printf("4-Millimeter.\n");
+                printf("5-Mile.\n");
+                printf("6-Yard.\n");
+                printf("7-Foot.\n");
+                printf("8-Inch.\n");
+                printf("9-Nautical_Mile.\n");
+                printf("Choose the size you want to convert:\n");
+                scanf("%d", &size1);
+                printf("Choose the size you want to convert to:\n");
+                scanf("%d", &size2);
+
+            }while (((size2&&size1) >= 10) || ((size2&&size1)<= 0));
+            if (size1 == 1){
+                printf("Enter the number in kilometers: ");
+                scanf("%f", &med);
+
+                if (size2 == 1){
+                    res=med * 1;
+                    printf("%fKilometers.\n", res);
                     system("pause");
                     break;
-                case 1:
-                    printf("1=Mass");
-                    printf("\n");
+                }
+
+                if (size2 == 2){
+                    res=med * 1000;
+                    printf("%fMeter.\n", res);
                     system("pause");
                     break;
-                case 2:
-                    printf("2=Pressure");
-                    printf("\n");
+                }
+                if (size2 == 3){
+                    res=med * 100000;
+                    printf("%fCentimeter.\n", res);
                     system("pause");
                     break;
-                case 3:
-                    printf("3=Temperature");
-                    printf("\n");
+                }
+
+                if (size2 == 4){
+                    res=med * 1000000;
+                    printf("%fMillimeter.\n", res);
                     system("pause");
                     break;
-                case 4:
-                    printf("4=Velocity");
-                    printf("\n");
+                }
+
+                if (size2 == 5){
+                    res=med / 1.609;
+                    printf("%fMile.\n", res);
                     system("pause");
                     break;
-                case 5:
-                    printf("5=Frequency");
-                    printf("\n");
+                }
+
+                if (size2 == 6){
+                    res=med * 1094;
+                    printf("%fYard.\n", res);
                     system("pause");
-                    break;    
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=med * 3281;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=med * 39370;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=med / 1.852;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 2){
+                printf("Enter the number in Meters: ");
+                scanf("%f", &med);
+
+                if (size2 == 2){
+                    res=med / 1000;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 1){
+                    res=med * 1000;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=med * 100;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=med * 1000;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=med / 1609;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=med * 1.094;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=med * 3.281;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=med * 39.37;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=med / 1852;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            printf("\n");
+            system("pause");
+            break;
 
 
 
-        }
+        case 2:
+            printf("2=Mass.");
+            printf("\n");
+            system("pause");
+            break;
+        case 3:
+            printf("3=Pressure.");
+            printf("\n");
+            system("pause");
+            break;
+        case 4:
+            printf("4=Temperature.");
+            printf("\n");
+            system("pause");
+            break;
+        case 5:
+            printf("5=Velocity.");
+            printf("\n");
+            system("pause");
+            break;
+        case 6:
+            printf("6=Frequency.");
+            printf("\n");
+            system("pause");
+            break;
+
+
+
+    }
 
 
     return 0;
