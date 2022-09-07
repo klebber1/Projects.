@@ -8,16 +8,9 @@ int main() {
     int opt=0;  /*main menu variable*/
     int size1=0;  /*length menu */
     int size2=0;  /*length menu */
-    float meter=0; /*length menu */
-    float kilometer=0;  /*length menu */
-    float centimeter=0;  /*length menu */
-    float millimeter=0;  /*length menu */
-    float mile=0;  /*length menu */
-    float yard=0;  /*length menu */
-    float foot=0;  /*length menu */
-    float inch=0;  /*length menu */
-    float n_mile=0;  /*length menu */
+    float med=0; /*length menu */
     float res_l=0; /*length menu */
+
 
     do {
 
@@ -61,65 +54,133 @@ int main() {
                     }while (((size2&&size1) >= 10) || ((size2&&size1)<= 0));
                     if (size1 == 1){
                         printf("Enter the number in kilometers: ");
-                        scanf("%f", &kilometer);
+                        scanf("%f", &med);
 
                             if (size2 == 1){
-                            res_l=kilometer * 1;
+                            res_l=med * 1;
                             printf("%fKilometers\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 2){
-                            res_l=kilometer * 1000;
+                            res_l=med * 1000;
                             printf("%fMeter\n", res_l);
                             system("pause");
                             break;
                         }
                             if (size2 == 3){
-                            res_l=kilometer * 100000;
+                            res_l=med * 100000;
                             printf("%fCentimeter\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 4){
-                            res_l=kilometer * 1000000;
+                            res_l=med * 1000000;
                             printf("%fMillimeter\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 5){
-                            res_l=kilometer / 1.609;
+                            res_l=med / 1.609;
                             printf("%fMile\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 6){
-                            res_l=kilometer * 1094;
+                            res_l=med * 1094;
                             printf("%fYard\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 7){
-                            res_l=kilometer * 3281;
+                            res_l=med * 3281;
                             printf("%fFoot\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 8){
-                            res_l=kilometer * 39370;
+                            res_l=med * 39370;
                             printf("%fInch\n", res_l);
                             system("pause");
                             break;
                         }
 
                             if (size2 == 9){
-                            res_l=kilometer / 1.852;
+                            res_l=med / 1.852;
+                            printf("%fNautical Mile\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+
+                    }
+                    if (size1 == 2){
+                        printf("Enter the number in Meters: ");
+                        scanf("%f", &med);
+
+                        if (size2 == 2){
+                            res_l=med / 1000;
+                            printf("%fKilometers\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 1){
+                            res_l=med * 1000;
+                            printf("%fMeter\n", res_l);
+                            system("pause");
+                            break;
+                        }
+                        if (size2 == 3){
+                            res_l=med * 100;
+                            printf("%fCentimeter\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 4){
+                            res_l=med * 1000;
+                            printf("%fMillimeter\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 5){
+                            res_l=med / 1609;
+                            printf("%fMile\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 6){
+                            res_l=med * 1.094;
+                            printf("%fYard\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 7){
+                            res_l=med * 3.281;
+                            printf("%fFoot\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 8){
+                            res_l=med * 39.37;
+                            printf("%fInch\n", res_l);
+                            system("pause");
+                            break;
+                        }
+
+                        if (size2 == 9){
+                            res_l=med / 1852;
                             printf("%fNautical Mile\n", res_l);
                             system("pause");
                             break;
@@ -130,6 +191,9 @@ int main() {
                     printf("\n");
                     system("pause");
                     break;
+
+
+
                 case 2:
                     printf("2=Mass");
                     printf("\n");
