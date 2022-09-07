@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    /*  measurement converter
-           project*/
+    /*     measurement converter project
+           fron students of:
+           FATEC - Mogi Mirim */
 
     int opt=0;  /*main menu*/
     int size1=0;  /* sub menu size type */
@@ -11,12 +12,12 @@ int main() {
     float rsize=0; /*sub menu */
     float res=0; /*submenu  */
     do {
-        printf("Measurement Converter Project.\n\n");
+        printf("Measurement Converter Project.\n\n");          /*MAIN MENU */
         printf("Choose the measurement type to convert:\n\n");
-        printf("1-Lenght.\n");
+        printf("1-Length.\n");
         printf("2-Mass.\n");
         printf("3-Pressure.\n");
-        printf("4-Temperature.\n");
+        printf("4-Temperature.\n");         /* */
         printf("5-Velocity.\n");
         printf("6-Frequency.\n");
         printf("Enter the number corresponding to one of the options above: ");
@@ -27,7 +28,7 @@ int main() {
         }
     }while (opt >= 7 || opt <= 0);
     switch (opt) {
-        case 1:
+        case 1:                                                    /*LENGTH menu*/
             do {
                 while (size1>=10 || size1<=0){
                 printf("You chose LENGTH\n");
@@ -40,14 +41,18 @@ int main() {
                 printf("7-Foot.\n");
                 printf("8-Inch.\n");
                 printf("9-Nautical_Mile.\n");
-                printf("Choose the size you want to convert:\n");
+                printf("Choose the measurement you want to convert:\n");
                 scanf("%d", &size1);
+                if (size1 >=10 || size1<=0){
+                    printf("Enter the number corresponding to one of the options above: \n");
+                    system("pause");
                 }
-                printf("Choose the size you want to convert to:\n");
+                }
+                printf("Choose the measurement you want to convert to:\n");
                 scanf("%d", &size2);
             }while (size2>= 10 || size2<= 0);
             if (size1 == 1){
-                printf("Enter the number in Kilometers: ");
+                printf("Enter the measurement in kilometers: ");
                 scanf("%f", &rsize);
                 if (size2 == 1){
                     res=rsize * 1;
@@ -105,7 +110,7 @@ int main() {
                 }
             }
             if (size1 == 2){
-                printf("Enter the number in Meters: ");
+                printf("Enter the measurement in Meters: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize / 1000;
@@ -163,7 +168,7 @@ int main() {
                 }
             }
             if (size1 == 3){
-                printf("Enter the number in Centimeter: ");
+                printf("Enter the measurement in Centimeter: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize / 100000;
@@ -221,7 +226,7 @@ int main() {
                 }
             }
             if (size1 == 4){
-                printf("Enter the number in Millimeter: ");
+                printf("Enter the measurement in Millimeter: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize / 1000000;
@@ -279,7 +284,7 @@ int main() {
                 }
             }
             if (size1 == 5){
-                printf("Enter the number in Miles: ");
+                printf("Enter the measurement in Miles: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize * 1.609;
@@ -337,7 +342,7 @@ int main() {
                 }
             }
             if (size1 == 6){
-                printf("Enter the number in Yard: ");
+                printf("Enter the measurement in Yard: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize / 1094;
@@ -395,7 +400,7 @@ int main() {
                 }
             }
             if (size1 == 7){
-                printf("Enter the number in Foot: ");
+                printf("Enter the measurement in Foot: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize / 3281;
@@ -453,7 +458,7 @@ int main() {
                 }
             }
             if (size1 == 8){
-                printf("Enter the number in Inch: ");
+                printf("Enter the measurement in Inch: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize / 39370;
@@ -511,7 +516,7 @@ int main() {
                 }
             }
             if (size1 == 9){
-                printf("Enter the number in Inch: ");
+                printf("Enter the measurement in Nautical_Mile.: ");
                 scanf("%f",&rsize);
                 if (size2 == 1){
                     res=rsize *1.852;
@@ -569,32 +574,27 @@ int main() {
                     break;
                 }
             }
-
-            printf("\n");
-            system("pause");
-            break;
-
-        case 2:
+        case 2:                                                 /* MASS menu*/
             printf("2=Mass.");
             printf("\n");
             system("pause");
             break;
-        case 3:
+        case 3:                                               /* PRESSURE menu*/
             printf("3=Pressure.");
             printf("\n");
             system("pause");
             break;
-        case 4:
+        case 4:                                                /*TEMPERATURE menu */
             printf("4=Temperature.");
             printf("\n");
             system("pause");
             break;
-        case 5:
+        case 5:                                                /* VELOCITY menu*/
             printf("5=Velocity.");
             printf("\n");
             system("pause");
             break;
-        case 6:
+        case 6:                                                /* FREQUENCY menu*/
             printf("6=Frequency.");
             printf("\n");
             system("pause");
