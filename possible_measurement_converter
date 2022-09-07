@@ -8,7 +8,7 @@ int main() {
     int opt=0;  /*main menu variable*/
     int size1=0;  /*length menu */
     int size2=0;  /*length menu */
-    float med=0; /*sub menu */
+    float rsize=0; /*sub menu */
     float res=0; /*length menu */
 
 
@@ -54,65 +54,65 @@ int main() {
             }while (((size2&&size1) >= 10) || ((size2&&size1)<= 0));
             if (size1 == 1){
                 printf("Enter the number in kilometers: ");
-                scanf("%f", &med);
+                scanf("%f", &rsize);
 
                 if (size2 == 1){
-                    res=med * 1;
+                    res=rsize * 1;
                     printf("%fKilometers.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 2){
-                    res=med * 1000;
+                    res=rsize * 1000;
                     printf("%fMeter.\n", res);
                     system("pause");
                     break;
                 }
                 if (size2 == 3){
-                    res=med * 100000;
+                    res=rsize * 100000;
                     printf("%fCentimeter.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 4){
-                    res=med * 1000000;
+                    res=rsize * 1000000;
                     printf("%fMillimeter.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 5){
-                    res=med / 1.609;
+                    res=rsize / 1.609;
                     printf("%fMile.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 6){
-                    res=med * 1094;
+                    res=rsize * 1094;
                     printf("%fYard.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 7){
-                    res=med * 3281;
+                    res=rsize * 3281;
                     printf("%fFoot.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 8){
-                    res=med * 39370;
+                    res=rsize * 39370;
                     printf("%fInch.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 9){
-                    res=med / 1.852;
+                    res=rsize / 1.852;
                     printf("%fNautical_Mile.\n", res);
                     system("pause");
                     break;
@@ -122,65 +122,65 @@ int main() {
             }
             if (size1 == 2){
                 printf("Enter the number in Meters: ");
-                scanf("%f", &med);
+                scanf("%f",&rsize);
 
-                if (size2 == 2){
-                    res=med / 1000;
+                if (size2 == 1){
+                    res=rsize / 1000;
                     printf("%fKilometers.\n", res);
                     system("pause");
                     break;
                 }
 
-                if (size2 == 1){
-                    res=med * 1000;
+                if (size2 == 2){
+                    res=rsize * 1;
                     printf("%fMeter.\n", res);
                     system("pause");
                     break;
                 }
                 if (size2 == 3){
-                    res=med * 100;
+                    res=rsize * 100;
                     printf("%fCentimeter.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 4){
-                    res=med * 1000;
+                    res=rsize * 1000;
                     printf("%fMillimeter.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 5){
-                    res=med / 1609;
+                    res=rsize / 1609;
                     printf("%fMile.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 6){
-                    res=med * 1.094;
+                    res=rsize * 1.094;
                     printf("%fYard.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 7){
-                    res=med * 3.281;
+                    res=rsize * 3.281;
                     printf("%fFoot.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 8){
-                    res=med * 39.37;
+                    res=rsize * 39.37;
                     printf("%fInch.\n", res);
                     system("pause");
                     break;
                 }
 
                 if (size2 == 9){
-                    res=med / 1852;
+                    res=rsize / 1852;
                     printf("%fNautical_Mile.\n", res);
                     system("pause");
                     break;
@@ -188,6 +188,483 @@ int main() {
 
 
             }
+            if (size1 == 3){
+                printf("Enter the number in Centimeter: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize / 100000;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 2){
+                    res=rsize * 100;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 1;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 10;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize / 160900;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize / 91.44;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize / 30.48;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize / 2.54;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize / 185200;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 4){
+                printf("Enter the number in Millimeter: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize / 1000000;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 2){
+                    res=rsize * 1000;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 10;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 1;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize / 1609000000;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize / 914.4;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize / 304.8;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize / 25.4;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize / 1852000000;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 5){
+                printf("Enter the number in Miles: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize * 1.609;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 2){
+                    res=rsize * 1609;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 160900;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 16090000000;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize * 1;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize * 1760;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize * 5280;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize * 63360;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize / 1.151;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 6){
+                printf("Enter the number in Yard: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize / 1094;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 1){
+                    res=rsize /1.094;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 91.44;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 914.4;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize / 1760;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize * 1;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize * 3;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize * 36;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize / 2025;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 7){
+                printf("Enter the number in Foot: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize / 3281;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 1){
+                    res=rsize /3.281;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 30.48;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 304.8;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize / 5280;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize / 3;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize * 1;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize * 12;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize / 6076;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 8){
+                printf("Enter the number in Inch: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize / 39370;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 1){
+                    res=rsize /39.37;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 2.54;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 25.4;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize / 63360;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize / 36;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize / 12;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize * 1;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize / 72910;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+            if (size1 == 9){
+                printf("Enter the number in Inch: ");
+                scanf("%f",&rsize);
+
+                if (size2 == 1){
+                    res=rsize *1.852;
+                    printf("%fKilometers.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 1){
+                    res=rsize * 1852;
+                    printf("%fMeter.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3){
+                    res=rsize * 185200;
+                    printf("%fCentimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 4){
+                    res=rsize * 1852000000;
+                    printf("%fMillimeter.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 5){
+                    res=rsize *1.151;
+                    printf("%fMile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 6){
+                    res=rsize * 2025;
+                    printf("%fYard.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 7){
+                    res=rsize * 6076;
+                    printf("%fFoot.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 8){
+                    res=rsize * 72910;
+                    printf("%fInch.\n", res);
+                    system("pause");
+                    break;
+                }
+
+                if (size2 == 9){
+                    res=rsize * 1;
+                    printf("%fNautical_Mile.\n", res);
+                    system("pause");
+                    break;
+                }
+
+
+            }
+
             printf("\n");
             system("pause");
             break;
