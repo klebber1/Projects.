@@ -575,10 +575,24 @@ First semester students of college of technology:
                 }
             }
         case 2:                                                 /* MASS menu*/
-            printf("You chose Mass.");
-            printf("\n");
-            system("pause");
-            break;
+            do {
+                while (size1 >= 7 || size1 <= 0) {
+                    printf("You chose Mass.");
+                    printf("1-Tonne\n");
+                    printf("2-Kilogram\n");
+                    printf("3-Gramme\n");
+                    printf("4-milligran\n");
+                    printf("5-Pound\n");
+                    printf("6-ounce\n");
+                    printf("Choose the measurement you want to convert:\n");
+                    scanf("%d", &size1);
+                    printf("\n");
+                    if (size1 >= 7 || size1 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
+                }
+            }while ("opt >= 6 || opt <= 0");
         case 3:                                               /* PRESSURE menu*/
             printf("You chose Pressure.");
             printf("\n");
