@@ -575,15 +575,15 @@ First semester students of college of technology:
                 }
             }
         case 2:                                                 /* MASS menu*/
-            do {
+           do {
                 while (size1 >= 7 || size1 <= 0) {
                     printf("You chose Mass.");
                     printf("1-Tonne\n");
                     printf("2-Kilogram\n");
                     printf("3-Gramme\n");
-                    printf("4-milligran\n");
+                    printf("4-Milligran\n");
                     printf("5-Pound\n");
-                    printf("6-ounce\n");
+                    printf("6-Ounce\n");
                     printf("Choose the measurement you want to convert:\n");
                     scanf("%d", &size1);
                     printf("\n");
@@ -591,8 +591,250 @@ First semester students of college of technology:
                         printf("Enter the number corresponding to one of the options above: \n");
                         system("pause");
                     }
+                    printf("Choose the measurement you want to convert to:\n");
+                    scanf("%d",&size2);
                 }
-            }while ("opt >= 6 || opt <= 0");
+            }while (size2 >= 7 || size2 <= 0);
+            if (size1 == 1){
+                printf("Enter the measurement in Tonne: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize * 1;
+                    printf("%f Tonne.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize * 1000;
+                    printf("%f Kilogram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 1000000;
+                    printf("%f Grams.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 1000000000;
+                    printf("%f Milligram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 5) {
+                    res = rsize * 2205;
+                    printf("%f Pounds.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 6) {
+                    res = rsize * 35270;
+                    printf("%f Ounce.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 2){
+                printf("Enter the measurement in Kilogram: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize /1000 ;
+                    printf("%f Tonne.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize * 1;
+                    printf("%f Kilogram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 1000;
+                    printf("%f Grams.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 1000000;
+                    printf("%f Milligram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 5) {
+                    res = rsize * 2.205;
+                    printf("%f Pounds.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 6) {
+                    res = rsize * 35.274;
+                    printf("%f Ounce.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 3){
+                printf("Enter the measurement in Gramme: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize /1000000 ;
+                    printf("%f Tonne.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize / 1000;
+                    printf("%f Kilogram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 1;
+                    printf("%f Grams.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 1000;
+                    printf("%f Milligram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 5) {
+                    res = rsize / 453.6;
+                    printf("%f Pounds.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 6) {
+                    res = rsize / 28.35;
+                    printf("%f Ounce.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 4){
+                printf("Enter the measurement in Milligram: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize /1000000000 ;
+                    printf("%f Tonne.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize / 1000000;
+                    printf("%f Kilogram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize / 1000;
+                    printf("%f Grams.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 1;
+                    printf("%f Milligram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 5) {
+                    res = rsize / 453600;
+                    printf("%f Pounds.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 6) {
+                    res = rsize / 28350;
+                    printf("%f Ounce.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 5){
+                printf("Enter the measurement in Pounds: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize /2205 ;
+                    printf("%f Tonne.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize / 2.205;
+                    printf("%f Kilogram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 453.6;
+                    printf("%f Grams.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 453600;
+                    printf("%f Milligram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 5) {
+                    res = rsize * 1;
+                    printf("%f Pounds.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 6) {
+                    res = rsize * 16;
+                    printf("%f Ounce.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 6){
+                printf("Enter the measurement in Ounce: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize /35270 ;
+                    printf("%f Tonne.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize / 35.274;
+                    printf("%f Kilogram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 28.35;
+                    printf("%f Grams.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 28350;
+                    printf("%f Milligram.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 5) {
+                    res = rsize / 16;
+                    printf("%f Pounds.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 6) {
+                    res = rsize * 1;
+                    printf("%f Ounce.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
         case 3:                                               /* PRESSURE menu*/
             printf("You chose Pressure.");
             printf("\n");
