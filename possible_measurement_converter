@@ -836,10 +836,134 @@ First semester students of college of technology:
                 }
             }
         case 3:                                               /* PRESSURE menu*/
-            printf("You chose Pressure.");
-            printf("\n");
-            system("pause");
-            break;
+           do {
+                while (size1 >= 5 || size1 <= 0) {
+                printf("You chose Pressure.");
+                printf("1-Standard_Atmosphere\n");
+                printf("2-Bar\n");
+                printf("3-Pascal\n");
+                printf("4-Psi\n");
+                printf("Choose the measurement you want to convert:\n");
+                scanf("%d", &size1);
+                printf("\n");
+                if (size1 >= 5 || size1 <= 0) {printf("Enter the number corresponding to one of the options above: \n");system("pause");
+                }
+                printf("Choose the measurement you want to convert to:\n");
+                scanf("%d",&size2);
+                }
+            }while (size2 >= 5 || size2 <= 0);
+            if (size1 == 1) {
+                printf("Enter the measurement in Standard_Atmosphere: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize * 1;
+                    printf("%f Standard_Atmosphere.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize * 1.013;
+                    printf("%f Bar.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 101300;
+                    printf("%f Pascal.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 14.696;
+                    printf("%f Psi.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 2) {
+                printf("Enter the measurement in Bar: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize / 1.013;
+                    printf("%f Standard_Atmosphere.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize * 1;
+                    printf("%f Bar.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 100000;
+                    printf("%f Pascal.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 14.504;
+                    printf("%f Psi.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 3) {
+                printf("Enter the measurement in Pascal: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize / 101300;
+                    printf("%f Standard_Atmosphere.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize * 100000;
+                    printf("%f Bar.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 1;
+                    printf("%f Pascal.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 6895;
+                    printf("%f Psi.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
+            if (size1 == 4) {
+                printf("Enter the measurement in Pascal: ");
+                scanf("%f", &rsize);
+                if (size2 == 1) {
+                    res = rsize / 101300;
+                    printf("%f Standard_Atmosphere.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 2) {
+                    res = rsize * 100000;
+                    printf("%f Bar.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 3) {
+                    res = rsize * 1;
+                    printf("%f Pascal.\n", res);
+                    system("pause");
+                    break;
+                }
+                if (size2 == 4) {
+                    res = rsize * 6895;
+                    printf("%f Psi.\n", res);
+                    system("pause");
+                    break;
+                }
+            }
         case 4:                                                /*TEMPERATURE menu */
             printf("You chose Temperature.");
             printf("\n");
