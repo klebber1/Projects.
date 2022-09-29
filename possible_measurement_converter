@@ -7,11 +7,11 @@ First semester students of college of technology:
          FATEC - Mogi Mirim */
 
     int opt=100;  /*main menu*/
-    int size1=0;  /* sub menu size type */
-    int size2=0;  /*sub menu size type*/
-    float rsize=0; /*sub menu */
-    float res=0; /*submenu  */
     do{
+        float rsize=0; /*sub menu */
+        float res=0; /*submenu  */
+        int size1=100;  /* sub menu size type */
+        int size2=100;  /*sub menu size type*/
         do {
             printf("Measurement Converter Project.\n\n");          /*MAIN MENU */
             printf("Choose the measurement type to convert:\n\n");
@@ -98,7 +98,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 1.852;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -147,7 +147,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 1852;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -160,7 +160,7 @@ First semester students of college of technology:
                         system("pause");
                     }
                     if (size2 == 2) {
-                        res = rsize * 100;
+                        res = rsize / 100;
                         printf("%fMeter.\n", res);
                         system("pause");
                     }
@@ -196,7 +196,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 185200;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -209,12 +209,12 @@ First semester students of college of technology:
                         system("pause");
                     }
                     if (size2 == 2) {
-                        res = rsize * 1000;
+                        res = rsize / 1000;
                         printf("%fMeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
-                        res = rsize * 10;
+                        res = rsize / 10;
                         printf("%fCentimeter.\n", res);
                         system("pause");
                     }
@@ -245,7 +245,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 1852000000;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -294,7 +294,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 1.151;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -343,7 +343,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 2025;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -392,7 +392,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 6076;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -441,12 +441,12 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize / 72910;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
                 if (size1 == 9) {
-                    printf("Enter the measurement in Nautical_Mile.: ");
+                    printf("Enter the measurement in Nautical Mile.: ");
                     scanf("%f", &rsize);
                     if (size2 == 1) {
                         res = rsize * 1.852;
@@ -464,7 +464,7 @@ First semester students of college of technology:
                         system("pause");
                     }
                     if (size2 == 4) {
-                        res = rsize * 1852000000;
+                        res = rsize * 1.852000000;
                         printf("%fMillimeter.\n", res);
                         system("pause");
                     }
@@ -491,7 +491,7 @@ First semester students of college of technology:
                     }
                     if (size2 == 9) {
                         res = rsize * 1;
-                        printf("%fNautical_Mile.\n", res);
+                        printf("%fNautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -743,11 +743,11 @@ First semester students of college of technology:
                     }
                 } while (size2 >= 5 || size2 <= 0);
                 if (size1 == 1) {
-                    printf("Enter the measurement in Standard_Atmosphere: ");
+                    printf("Enter the measurement in Standard Atmosphere: ");
                     scanf("%f", &rsize);
                     if (size2 == 1) {
                         res = rsize * 1;
-                        printf("%f Standard_Atmosphere.\n", res);
+                        printf("%f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
@@ -771,7 +771,7 @@ First semester students of college of technology:
                     scanf("%f", &rsize);
                     if (size2 == 1) {
                         res = rsize / 1.013;
-                        printf("%f Standard_Atmosphere.\n", res);
+                        printf("%f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
@@ -795,11 +795,11 @@ First semester students of college of technology:
                     scanf("%f", &rsize);
                     if (size2 == 1) {
                         res = rsize / 101300;
-                        printf("%f Standard_Atmosphere.\n", res);
+                        printf("%f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
-                        res = rsize * 100000;
+                        res = rsize / 100000;
                         printf("%f Bar.\n", res);
                         system("pause");
                     }
@@ -809,7 +809,7 @@ First semester students of college of technology:
                         system("pause");
                     }
                     if (size2 == 4) {
-                        res = rsize * 6895;
+                        res = rsize / 6895;
                         printf("%f Psi.\n", res);
                         system("pause");
                     }
@@ -819,7 +819,7 @@ First semester students of college of technology:
                     scanf("%f", &rsize);
                     if (size2 == 1) {
                         res = rsize / 14.696;
-                        printf("%f Standard_Atmosphere.\n", res);
+                        printf("%f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
