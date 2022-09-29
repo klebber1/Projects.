@@ -10,7 +10,7 @@ First semester students of college of technology:
     int size1=0;  /* sub menu size type */
     int size2=0;  /*sub menu size type*/
     float rsize=0; /*sub menu */
-    float res=0; /*submenu  */
+    float res=0; /*sub menu  */
     do{
         do {
             printf("Measurement Converter Project.\n\n");          /*MAIN MENU */
