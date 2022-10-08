@@ -727,7 +727,7 @@ First semester students of college of technology:
                 do {
                     while (size1 >= 5 || size1 <= 0) {
                         printf("You chose Pressure.\n");
-                        printf("1-Standard_Atmosphere\n");
+                        printf("1-Standard Atmosphere\n");
                         printf("2-Bar\n");
                         printf("3-Pascal\n");
                         printf("4-Psi\n");
