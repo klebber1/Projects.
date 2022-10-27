@@ -58,47 +58,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size * 1;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1000;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 100000;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1000000;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 1.609;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 1094;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size * 3281;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 39370;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 1.852;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -107,47 +107,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1000;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 100;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1000;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 1609;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 1.094;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size * 3.281;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 39.37;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 1852;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -156,47 +156,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 100000;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 100;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 1;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 10;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 160900;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size / 91.44;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size / 30.48;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size / 2.54;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 185200;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -205,47 +205,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1000000;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 1000;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size / 10;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 1609000000;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size / 914.4;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size / 304.8;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size / 25.4;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 1852000000;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -254,47 +254,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size * 1.609;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1609;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 160900;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 16090000000;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size * 1;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 1760;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size * 5280;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 63360;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 1.151;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -303,47 +303,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1094;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 1) {
                         res = size / 1.094;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 91.44;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 914.4;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 1760;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 1;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size * 3;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 36;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 2025;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -352,47 +352,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 3281;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 1) {
                         res = size / 3.281;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 30.48;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 304.8;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 5280;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size / 3;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size * 1;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 12;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 6076;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -401,47 +401,47 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 39370;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 1) {
                         res = size / 39.37;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 2.54;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 25.4;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 63360;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size / 36;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size / 12;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 1;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size / 72910;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -450,48 +450,48 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size * 1.852;
-                        printf("%f Kilometers.\n", res);
+                        printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
                     if (size2 == 1) {
                         res = size * 1852;
-                        printf("%f Meter.\n", res);
+                        printf("%.4f Meter.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 185200;
-                        printf("%f Centimeter.\n", res);
+                        printf("%.4f Centimeter.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1.852000000;
-                        printf("%f Millimeter.\n", res);
+                        printf("%.4f Millimeter.\n", res);
                         system("pause");
                     }
 
                     if (size2 == 5) {
                         res = size * 1.151;
-                        printf("%f Mile.\n", res);
+                        printf("%.4f Mile.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 2025;
-                        printf("%f Yard.\n", res);
+                        printf("%.4f Yard.\n", res);
                         system("pause");
                     }
                     if (size2 == 7) {
                         res = size * 6076;
-                        printf("%f Foot.\n", res);
+                        printf("%.4f Foot.\n", res);
                         system("pause");
                     }
                     if (size2 == 8) {
                         res = size * 72910;
-                        printf("%f Inch.\n", res);
+                        printf("%.4f Inch.\n", res);
                         system("pause");
                     }
                     if (size2 == 9) {
                         res = size * 1;
-                        printf("%f Nautical Mile.\n", res);
+                        printf("%.4f Nautical Mile.\n", res);
                         system("pause");
                     }
                 }
@@ -522,33 +522,33 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size * 1;
-                        printf("%f Tonne.\n", res);
+                        printf("%.4f Tonne.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1000;
-                        printf("%f Kilogram.\n", res);
+                        printf("%.4f Kilogram.\n", res);
                         system("pause");
                         break;
                     }
                     if (size2 == 3) {
                         res = size * 1000000;
-                        printf("%f Grams.\n", res);
+                        printf("%.4f Grams.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1000000000;
-                        printf("%f Milligram.\n", res);
+                        printf("%.4f Milligram.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size * 2205;
-                        printf("%f Pounds.\n", res);
+                        printf("%.4f Pounds.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 35270;
-                        printf("%f Ounce.\n", res);
+                        printf("%.4f Ounce.\n", res);
                         system("pause");
                     }
                 }
@@ -557,32 +557,32 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1000;
-                        printf("%f Tonne.\n", res);
+                        printf("%.4f Tonne.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1;
-                        printf("%f Kilogram.\n", res);
+                        printf("%.4f Kilogram.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 1000;
-                        printf("%f Grams.\n", res);
+                        printf("%.4f Grams.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1000000;
-                        printf("%f Milligram.\n", res);
+                        printf("%.4f Milligram.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size * 2.205;
-                        printf("%f Pounds.\n", res);
+                        printf("%.4f Pounds.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 35.274;
-                        printf("%f Ounce.\n", res);
+                        printf("%.4f Ounce.\n", res);
                         system("pause");
                     }
                 }
@@ -591,32 +591,32 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1000000;
-                        printf("%f Tonne.\n", res);
+                        printf("%.4f Tonne.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 1000;
-                        printf("%f Kilogram.\n", res);
+                        printf("%.4f Kilogram.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 1;
-                        printf("%f Grams.\n", res);
+                        printf("%.4f Grams.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1000;
-                        printf("%f Milligram.\n", res);
+                        printf("%.4f Milligram.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 453.6;
-                        printf("%f Pounds.\n", res);
+                        printf("%.4f Pounds.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size / 28.35;
-                        printf("%f Ounce.\n", res);
+                        printf("%.4f Ounce.\n", res);
                         system("pause");
                     }
                 }
@@ -625,32 +625,32 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1000000000;
-                        printf("%f Tonne.\n", res);
+                        printf("%.4f Tonne.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 1000000;
-                        printf("%f Kilogram.\n", res);
+                        printf("%.4f Kilogram.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size / 1000;
-                        printf("%f Grams.\n", res);
+                        printf("%.4f Grams.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1;
-                        printf("%f Milligram.\n", res);
+                        printf("%.4f Milligram.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 453600;
-                        printf("%f Pounds.\n", res);
+                        printf("%.4f Pounds.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size / 28350;
-                        printf("%f Ounce.\n", res);
+                        printf("%.4f Ounce.\n", res);
                         system("pause");
                     }
                 }
@@ -659,32 +659,32 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 2205;
-                        printf("%f Tonne.\n", res);
+                        printf("%.4f Tonne.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 2.205;
-                        printf("%f Kilogram.\n", res);
+                        printf("%.4f Kilogram.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 453.6;
-                        printf("%f Grams.\n", res);
+                        printf("%.4f Grams.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 453600;
-                        printf("%f Milligram.\n", res);
+                        printf("%.4f Milligram.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size * 1;
-                        printf("%f Pounds.\n", res);
+                        printf("%.4f Pounds.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 16;
-                        printf("%f Ounce.\n", res);
+                        printf("%.4f Ounce.\n", res);
                         system("pause");
                     }
                 }
@@ -693,32 +693,32 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 35270;
-                        printf("%f Tonne.\n", res);
+                        printf("%.4f Tonne.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 35.274;
-                        printf("%f Kilogram.\n", res);
+                        printf("%.4f Kilogram.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 28.35;
-                        printf("%f Grams.\n", res);
+                        printf("%.4f Grams.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 28350;
-                        printf("%f Milligram.\n", res);
+                        printf("%.4f Milligram.\n", res);
                         system("pause");
                     }
                     if (size2 == 5) {
                         res = size / 16;
-                        printf("%f Pounds.\n", res);
+                        printf("%.4f Pounds.\n", res);
                         system("pause");
                     }
                     if (size2 == 6) {
                         res = size * 1;
-                        printf("%f Ounce.\n", res);
+                        printf("%.4f Ounce.\n", res);
                         system("pause");
                     }
                 }
@@ -747,22 +747,22 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size * 1;
-                        printf("%f Standard Atmosphere.\n", res);
+                        printf("%.4f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1.013;
-                        printf("%f Bar.\n", res);
+                        printf("%.4f Bar.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 101300;
-                        printf("%f Pascal.\n", res);
+                        printf("%.4f Pascal.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 14.696;
-                        printf("%f Psi.\n", res);
+                        printf("%.4f Psi.\n", res);
                         system("pause");
                     }
                 }
@@ -771,22 +771,22 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 1.013;
-                        printf("%f Standard Atmosphere.\n", res);
+                        printf("%.4f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size * 1;
-                        printf("%f Bar.\n", res);
+                        printf("%.4f Bar.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 100000;
-                        printf("%f Pascal.\n", res);
+                        printf("%.4f Pascal.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 14.504;
-                        printf("%f Psi.\n", res);
+                        printf("%.4f Psi.\n", res);
                         system("pause");
                     }
                 }
@@ -795,22 +795,22 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 101300;
-                        printf("%f Standard Atmosphere.\n", res);
+                        printf("%.4f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 100000;
-                        printf("%f Bar.\n", res);
+                        printf("%.4f Bar.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 1;
-                        printf("%f Pascal.\n", res);
+                        printf("%.4f Pascal.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size / 6895;
-                        printf("%f Psi.\n", res);
+                        printf("%.4f Psi.\n", res);
                         system("pause");
                     }
                 }
@@ -819,22 +819,22 @@ First semester students of college of technology:
                     scanf("%f", &size);
                     if (size2 == 1) {
                         res = size / 14.696;
-                        printf("%f Standard Atmosphere.\n", res);
+                        printf("%.4f Standard Atmosphere.\n", res);
                         system("pause");
                     }
                     if (size2 == 2) {
                         res = size / 14.504;
-                        printf("%f Bar.\n", res);
+                        printf("%.4f Bar.\n", res);
                         system("pause");
                     }
                     if (size2 == 3) {
                         res = size * 6895;
-                        printf("%f Pascal.\n", res);
+                        printf("%.4f Pascal.\n", res);
                         system("pause");
                     }
                     if (size2 == 4) {
                         res = size * 1;
-                        printf("%f Psi.\n", res);
+                        printf("%.4f Psi.\n", res);
                         system("pause");
                     }
                 }
