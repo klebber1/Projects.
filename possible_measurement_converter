@@ -840,8 +840,83 @@ First semester students of college of technology:
                 }
                 break;
             case 4:                                                /*TEMPERATURE menu */
-                printf("You chose Temperature.\n");
-                system("pause");
+                do {
+                    while (size1 >= 4 || size1 <= 0) {
+                        printf("You chose Temperature.\n");
+                        printf("1-Degree Celsius.\n");
+                        printf("2-Degree Fahrenheit.\n");
+                        printf("3-Degree Kelvin.\n");
+                        printf("Choose the measurement you want to convert:\n");
+                        scanf("%d", &size1);
+                        printf("\n");
+                        if (size1 >= 4 || size1 <= 0) {
+                            printf("Enter the number corresponding to one of the options above: \n");
+                            system("pause");
+                        }
+                        printf("Choose the measurement you want to convert to:\n");
+                        scanf("%d", &size2);
+                    }
+                } while (size2 >= 4 || size2 <= 0);
+                if (size1 == 1) {
+                    printf("Enter the measurement in Degree Celsius: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1;
+                        printf("%.4f Degree Celsius.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = (size * 9/5) + 32 ;
+                        printf("%.4f Degree Fahrenheit.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size + 273.15;
+                        printf("%.4f Degree Kelvin.\n", res);
+                        system("pause");
+                    }
+
+                }
+                if (size1 == 2) {
+                    printf("Enter the measurement in Degree Fahrenheit: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size / 1.013;
+                        printf("%.4f Degree Celsius.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 1;
+                        printf("%.4f Degree Fahrenheit.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size * 100000;
+                        printf("%.4f Degree Kelvin.\n", res);
+                        system("pause");
+                    }
+
+                }
+                if (size1 == 3) {
+                    printf("Enter the measurement in Degree Kelvin: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size / 101300;
+                        printf("%.4f Degree Celsius.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size / 100000;
+                        printf("%.4f Degree Fahrenheit.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size * 1;
+                        printf("%.4f Degree Kelvin.\n", res);
+                        system("pause");
+                    }
+
+                }
                 break;
             case 5:                                                /* VELOCITY menu*/
                 printf("You chose Velocity.\n");
