@@ -453,7 +453,7 @@ First semester students of college of technology:
                         printf("%.4f Kilometers.\n", res);
                         system("pause");
                     }
-                    if (size2 == 1) {
+                    if (size2 == 2) {
                         res = size * 1852;
                         printf("%.4f Meter.\n", res);
                         system("pause");
