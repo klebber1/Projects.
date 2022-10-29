@@ -6,12 +6,12 @@ int main() {
 First semester students of college of technology:
          FATEC - Mogi Mirim */
 
-    int opt=100;  /*main menu*/
-    do{
-        float size=0; /*sub menu */
-        float res=0; /*submenu  */
-        int size1=100;  /* sub menu size type */
-        int size2=100;  /*sub menu size type*/
+    int opt = 100;  /*main menu*/
+    do {
+        float size = 0; /*sub menu */
+        float res = 0; /*submenu  */
+        int size1 = 100;  /* sub menu size type */
+        int size2 = 100;  /*sub menu size type*/
         do {
             printf("Measurement Converter Project.\n\n");          /*MAIN MENU */
             printf("Choose the measurement type to convert:\n\n");
@@ -866,7 +866,7 @@ First semester students of college of technology:
                         system("pause");
                     }
                     if (size2 == 2) {
-                        res = (size * 9/5) + 32 ;
+                        res = (size * 9 / 5) + 32;
                         printf("%.4f Degree Fahrenheit.\n", res);
                         system("pause");
                     }
@@ -919,7 +919,7 @@ First semester students of college of technology:
                 }
                 break;
             case 5:                                                /* VELOCITY menu*/
-               do {
+                do {
                     while (size1 >= 6 || size1 <= 0) {
                         printf("You chose Mass.\n");
                         printf("1-Mile per hour.\n");
@@ -950,7 +950,6 @@ First semester students of college of technology:
                         res = size * 1.467;
                         printf("%.4f Feet per second.\n", res);
                         system("pause");
-                        break;
                     }
                     if (size2 == 3) {
                         res = size / 2.237;
@@ -992,7 +991,7 @@ First semester students of college of technology:
                         system("pause");
                     }
                     if (size2 == 5) {
-                        res = size /1.688;
+                        res = size / 1.688;
                         printf("%.4f Knot.\n", res);
                         system("pause");
                     }
@@ -1086,7 +1085,7 @@ First semester students of college of technology:
                 }
                 break;
             case 6:                                                /* FREQUENCY menu*/
-               do {
+                do {
                     while (size1 >= 5 || size1 <= 0) {
                         printf("You chose Frequency.\n");
                         printf("1-Hertz.\n");
@@ -1201,9 +1200,7 @@ First semester students of college of technology:
                     }
                 }
                 break;
-            
-        }           
-    }while(opt!=0);
-
-    return 0;
-}
+            }
+        }while (opt != 0);
+        return 0;
+    }
