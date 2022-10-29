@@ -1200,7 +1200,7 @@ First semester students of college of technology:
                     }
                 }
                 break;
-        }
+        }           
     }while(opt!=0);
 
     return 0;
