@@ -919,14 +919,287 @@ First semester students of college of technology:
                 }
                 break;
             case 5:                                                /* VELOCITY menu*/
-                printf("You chose Velocity.\n");
-                system("pause");
+               do {
+                    while (size1 >= 6 || size1 <= 0) {
+                        printf("You chose Mass.\n");
+                        printf("1-Mile per hour.\n");
+                        printf("2-Feet per second.\n");
+                        printf("3-Meter per second.\n");
+                        printf("4-Kilometer per hour.\n");
+                        printf("5-Knot.\n");
+                        printf("Choose the measurement you want to convert:\n");
+                        scanf("%d", &size1);
+                        printf("\n");
+                        if (size1 >= 6 || size1 <= 0) {
+                            printf("Enter the number corresponding to one of the options above: \n");
+                            system("pause");
+                        }
+                        printf("Choose the measurement you want to convert to:\n");
+                        scanf("%d", &size2);
+                    }
+                } while (size2 >= 6 || size2 <= 0);
+                if (size1 == 1) {
+                    printf("Enter the measurement in Mile per hour: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1;
+                        printf("%.4f Mile per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 1.467;
+                        printf("%.4f Feet per second.\n", res);
+                        system("pause");
+                        break;
+                    }
+                    if (size2 == 3) {
+                        res = size / 2.237;
+                        printf("%.4f Meter per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size * 1.609;
+                        printf("%.4f Kilometer per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 5) {
+                        res = size / 1.151;
+                        printf("%.4f Knot.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 2) {
+                    printf("Enter the measurement in Feet per second: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size / 1.467;
+                        printf("%.4f Mile per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 1;
+                        printf("%.4f Feet per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size / 3.281;
+                        printf("%.4f Meter per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size * 1.097;
+                        printf("%.4f Kilometer per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 5) {
+                        res = size /1.688;
+                        printf("%.4f Knot.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 3) {
+                    printf("Enter the measurement in Meter per second: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 2.237;
+                        printf("%.4f Mile per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 3.281;
+                        printf("%.4f Feet per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size * 1;
+                        printf("%.4f Meter per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size * 3.6;
+                        printf("%.4f Kilometer per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 5) {
+                        res = size * 1.944;
+                        printf("%.4f Knot.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 4) {
+                    printf("Enter the measurement in Kilometer per hour: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size / 1.609;
+                        printf("%.4f Mile per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size / 1.097;
+                        printf("%.4f Feet per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size / 3.6;
+                        printf("%.4f Meter per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size * 1;
+                        printf("%.4f Kilometer per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 5) {
+                        res = size / 1.852;
+                        printf("%.4f Knot.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 5) {
+                    printf("Enter the measurement in Knot: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1.151;
+                        printf("%.4f Mile per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 1.688;
+                        printf("%.4f Feet per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size / 1.944;
+                        printf("%.4f Meter per second.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size * 1.852;
+                        printf("%.4f Kilometer per hour.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 5) {
+                        res = size * 1;
+                        printf("%.4f Knot.\n", res);
+                        system("pause");
+                    }
                 break;
             case 6:                                                /* FREQUENCY menu*/
-                printf("You chose Frequency.\n");
-                system("pause");
+               do {
+                    while (size1 >= 5 || size1 <= 0) {
+                        printf("You chose Frequency.\n");
+                        printf("1-Hertz.\n");
+                        printf("2-Kilohertz.\n");
+                        printf("3-Megahertz.\n");
+                        printf("4-Gigahertz.\n");
+                        printf("Choose the measurement you want to convert:\n");
+                        scanf("%d", &size1);
+                        printf("\n");
+                        if (size1 >= 5 || size1 <= 0) {
+                            printf("Enter the number corresponding to one of the options above: \n");
+                            system("pause");
+                        }
+                        printf("Choose the measurement you want to convert to:\n");
+                        scanf("%d", &size2);
+                    }
+                } while (size2 >= 5 || size2 <= 0);
+                if (size1 == 1) {
+                    printf("Enter the measurement in Hertz: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1;
+                        printf("%.4f Hertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size / 1000;
+                        printf("%.4f Kilohertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size / 1000000;
+                        printf("%.4f Megahertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size / 1000000000;
+                        printf("%.4f Gigahertz.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 2) {
+                    printf("Enter the measurement in Kilohertz: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1000;
+                        printf("%.4f Hertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 1;
+                        printf("%.4f Kilohertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size / 1000;
+                        printf("%.4f Megahertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size / 1000000;
+                        printf("%.4f Gigahertz.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 3) {
+                    printf("Enter the measurement in Megahertz: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1000000;
+                        printf("%.4f Hertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size / 1000;
+                        printf("%.4f Kilohertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size * 1;
+                        printf("%.4f Megahertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size / 1000;
+                        printf("%.4f Gigahertz.\n", res);
+                        system("pause");
+                    }
+                }
+                if (size1 == 4) {
+                    printf("Enter the measurement in Gigahertz: ");
+                    scanf("%f", &size);
+                    if (size2 == 1) {
+                        res = size * 1000000000;
+                        printf("%.4f Hertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 2) {
+                        res = size * 1000000;
+                        printf("%.4f Kilohertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 3) {
+                        res = size * 1000;
+                        printf("%.4f Megahertz.\n", res);
+                        system("pause");
+                    }
+                    if (size2 == 4) {
+                        res = size * 1;
+                        printf("%.4f Gigahertz.\n", res);
+                        system("pause");
+                    }
+                }
                 break;
-
         }
     }while(opt!=0);
 
