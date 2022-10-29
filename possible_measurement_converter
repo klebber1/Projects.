@@ -1083,6 +1083,7 @@ First semester students of college of technology:
                         printf("%.4f Knot.\n", res);
                         system("pause");
                     }
+                }
                 break;
             case 6:                                                /* FREQUENCY menu*/
                do {
@@ -1200,6 +1201,7 @@ First semester students of college of technology:
                     }
                 }
                 break;
+            
         }           
     }while(opt!=0);
 
