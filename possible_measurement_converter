@@ -4,7 +4,7 @@
 int main() {
     /* Measurement Converter Project
 First semester students of college of technology:
-         FATEC - Mogi Mirim */
+         FATEC - Mogi Mirim !*/
 
     int opt = 100;  /*main menu*/
     do {
