@@ -4,7 +4,7 @@
 int main() {
     /* Measurement Converter Project
 First semester students of college of technology:
-         FATEC - Mogi Mirim !*/
+         FATEC - Mogi Mirim !!*/
 
     int opt = 100;  /*main menu*/
     do {
@@ -53,6 +53,10 @@ First semester students of college of technology:
                     }
                     printf("Choose the measurement you want to convert to:\n");
                     scanf("%d", &size2);
+                    if (size2 >= 10 || size2 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
                 } while (size2 >= 10 || size2 <= 0);
                 if (size1 == 1) {
                     printf("Enter the measurement in Kilometers: ");
@@ -517,6 +521,10 @@ First semester students of college of technology:
                     }
                     printf("Choose the measurement you want to convert to:\n");
                     scanf("%d", &size2);
+                    if (size2 >= 7 || size2 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
                 } while (size2 >= 7 || size2 <= 0);
                 if (size1 == 1) {
                     printf("Enter the measurement in Tonne: ");
@@ -742,6 +750,10 @@ First semester students of college of technology:
                     }
                     printf("Choose the measurement you want to convert to:\n");
                     scanf("%d", &size2);
+                    if (size2 >= 5 || size2 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
                 } while (size2 >= 5 || size2 <= 0);
                 if (size1 == 1) {
                     printf("Enter the measurement in Standard Atmosphere: ");
@@ -857,6 +869,10 @@ First semester students of college of technology:
                     }
                     printf("Choose the measurement you want to convert to:\n");
                     scanf("%d", &size2);
+                    if (size2 >= 4 || size2 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
                 } while (size2 >= 4 || size2 <= 0);
                 if (size1 == 1) {
                     printf("Enter the measurement in Degree Celsius: ");
@@ -938,6 +954,10 @@ First semester students of college of technology:
                     }
                     printf("Choose the measurement you want to convert to:\n");
                     scanf("%d", &size2);
+                    if (size2 >= 6 || size2 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
                 } while (size2 >= 6 || size2 <= 0);
                 if (size1 == 1) {
                     printf("Enter the measurement in Mile per hour: ");
@@ -1103,6 +1123,10 @@ First semester students of college of technology:
                     }
                     printf("Choose the measurement you want to convert to:\n");
                     scanf("%d", &size2);
+                    if (size2 >= 5 || size2 <= 0) {
+                        printf("Enter the number corresponding to one of the options above: \n");
+                        system("pause");
+                    }
                 }while (size2 >= 5 || size2 <= 0);
                 if (size1 == 1) {
                     printf("Enter the measurement in Hertz: ");
